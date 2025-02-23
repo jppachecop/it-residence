@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gacvTMB5N87pIhQxX2p8-2" value="Produtor" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-30" width="3210" height="160" as="geometry" />
+          <mxGeometry x="220" y="-30" width="3880" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gacvTMB5N87pIhQxX2p8-213" value="Notificação recebida" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gacvTMB5N87pIhQxX2p8-2">
           <mxGeometry x="2380" y="40" width="80" height="80" as="geometry" />
