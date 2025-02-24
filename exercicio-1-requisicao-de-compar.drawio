@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="Página-1" id="hoFYig0tJB6Xj5QeDTZk">
-    <mxGraphModel>
+    <mxGraphModel dx="786" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-1" value="Requisição de Compra" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="1530" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-2" value="Colaborador" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-1">
+          <mxGeometry x="20" width="1510" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-2" source="nUPBNhGOLNSk0jd-28WA-5" target="nUPBNhGOLNSk0jd-28WA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-2">
+          <mxGeometry x="50" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-7" value="Fazer requisição de compras" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-2">
+          <mxGeometry x="130" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-27" value="Necessidade de Compra" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-2">
+          <mxGeometry x="40" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-3" value="Auxiliar de Compras" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-1">
+          <mxGeometry x="20" y="140" width="1510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-3" source="nUPBNhGOLNSk0jd-28WA-9" target="nUPBNhGOLNSk0jd-28WA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-9" value="Cotar serviços" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-3">
+          <mxGeometry x="270" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-11" value="Cotar produtos" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-3">
+          <mxGeometry x="470" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-15" value="Comprar serviços e produtos" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-3">
+          <mxGeometry x="850" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-4" value="Gestor" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-1">
+          <mxGeometry x="20" y="320" width="1510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-13" value="Avaliar solicitação" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-4">
+          <mxGeometry x="640" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-6" value="Assistente de Almoxarifado" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-1">
+          <mxGeometry x="20" y="480" width="1510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-17" value="Registrar no sistema" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-6">
+          <mxGeometry x="1001" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-19" value="Assistente Financeiro" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-1">
+          <mxGeometry x="20" y="680" width="1510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-19" source="nUPBNhGOLNSk0jd-28WA-20" target="nUPBNhGOLNSk0jd-28WA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-20" value="Lançar previsão de pagamento" style="whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-19">
+          <mxGeometry x="1170" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-19">
+          <mxGeometry x="1400" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-26" value="Solicitação Atendida" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nUPBNhGOLNSk0jd-28WA-19">
+          <mxGeometry x="1395" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-1" source="nUPBNhGOLNSk0jd-28WA-7" target="nUPBNhGOLNSk0jd-28WA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-1" source="nUPBNhGOLNSk0jd-28WA-11" target="nUPBNhGOLNSk0jd-28WA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-1" source="nUPBNhGOLNSk0jd-28WA-13" target="nUPBNhGOLNSk0jd-28WA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-1" source="nUPBNhGOLNSk0jd-28WA-15" target="nUPBNhGOLNSk0jd-28WA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nUPBNhGOLNSk0jd-28WA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nUPBNhGOLNSk0jd-28WA-1" source="nUPBNhGOLNSk0jd-28WA-17" target="nUPBNhGOLNSk0jd-28WA-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
